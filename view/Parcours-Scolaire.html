@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<!-- Specification of the page language and reading direction. Here : french, left to right. -->
+<html lang="fr" dir="ltr">
+
+<head>
+
+  <!-- BASIC META - MINIMAL CONFIGURATION -->
+
+  <!-- Support for accents and other special characters -->
+  <meta charset="utf-8" />
+  <!-- For responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Internet Explorer Compatibility -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The description that the browser should display in its results -->
+  <meta name="description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/CDN/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS link for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="../assets/CDN/aos.css" rel="stylesheet">
+  <!-- CSS link for the scroll to top -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/CDN/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+  <link href="../assets/CDN/merriweather.css" rel="stylesheet">
+  <!-- Link to CSS page -->
+  <link rel="stylesheet" href="../assets/CSS/style.css">
+  <!-- Link to CSS specific to this page -->
+  <link rel="stylesheet" href="../assets/CSS/Parcours-Scolaire.css">
+  <!-- Link for the font -->
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link href="../assets/CDN/merienda.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="../assets/CDN/roboto.css" rel="stylesheet">
+  <!-- thumbnail icon -->
+  <link rel="icon" href="../img/images/dragon-face_1f432.png">
+
+  <!-- thumbnail title -->
+  <title>Paul Compère - Développeur</title>
+
+
+  <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK -->
+
+  <meta property="og:title" content="Paul Compère - Développeur" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://paul-compere.github.io/developpeur.web/" />
+  <meta property="og:image" content="http://paul-compere.github.io/../img/images/doomsday.svg" />
+  <meta property="og:description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI" />
+
+
+  <!-- TWITTER CARD DATA -->
+
+  <meta name="twitter:card" content="icon">
+  <meta name="twitter:site" content="@Paul Compère - Développeur">
+  <meta name="twitter:title" content="Paul Compère - Développeur">
+  <meta name="twitter:description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+  <meta name="twitter:creator" content="@ShaolinSpirit76">
+  <!-- Twitter Summary card images must be at least 200x200px -->
+  <meta name="twitter:image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+
+
+  <!-- SCHEMA.ORG MARKUP FOR GOOGLE+ -->
+
+  <meta itemprop="name" content="Paul Compère - Développeur">
+  <meta itemprop="description"
+    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+  <meta itemprop="image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+
+
+  <!-- GOOGLE AUTHORSHIP AND PUBLISHER MARKUP -->
+
+  <link rel="author" href="https://github.com/ShaolinSpirit76" />
+  <link rel="publisher" href="https://paul-compere.github.io/developpeur.web/" />
+</head>
+
+<body>
+
+  <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="#"></a>
+    <button id="navButton" class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span id="textNavButton" class="text-white">Cliquez pour voir le menu</span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item">
+          <img src="../img/images/viking18.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+        </li>
+      </ul>
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="clickTop home nav-link" href="../index.html">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Compétences
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="clickproScol cpt dropdown-item" href="competences/Projets-Etudes.html"
+              style="color:#e65100;"><B>Projets d'étude</B></a>
+            <a class="clickOC OC dropdown-item" href="competences/Certif-OC.html" style="color:#e65100;"><B>Certificats
+                OC</B></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Expérience
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="clickInfo informatique dropdown-item" href="experience/Info.html" style="color:#e65100;"><B>En
+                informatique</B></a>
+            <a class="clickAutre autre dropdown-item" href="experience/Autre.html"
+              style="color:#e65100;"><B>Autre</B></a>
+            <div class="dropdown-divider"></div>
+            <a class="clickEnseignement enseignement dropdown-item" href="experience/Enseignement.html"
+              style="color:#e65100;"><B>Dans l'enseignement</B></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 dpl nav-link" href="Diplomes.html">Diplômes</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 pscol nav-link orange" href="Parcours-Scolaire.html">Parcours scolaire</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 crt nav-link" href="Creations.html">Créations</a>
+        </li>
+        <li class="nav-item">
+          <a class="clickTop1 lsr nav-link" href="Loisirs.html">Loisirs</a>
+        </li>
+        <li class="nav-item">
+          <a data-toggle="collapse" data-target="#navbarSupportedContent" class="clickContact ctc nav-link"
+            href="#image7">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item">
+          <img src="../img/images/viking18.png" class="img-fluid" alt="bibliothèque" width="30%" height="30%" />
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Parcours scolaire -->
+
+  <div id="ParcoursScolaire">
+
+    <a class="buttonScroll"></a>
+
+    <div id="blockPscol" class="row col-lg-8 col-md-8 col-sm-12 mx-auto">
+
+
+
+      <div class="row col-lg-8 col-md-8 col-sm-12 mx-auto">
+
+        <div class="accordion" id="Formation">
+          <div class="card">
+            <div class="card-header" id="F1">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseF1"
+                  aria-expanded="true" aria-controls="collapseF1">
+                  Titre Professionnel d'Etat de développeur web et web mobile (bac+2)
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseF1" class="collapse show" aria-labelledby="F1" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>18 Mars 2019 - 13 Septembre 2019</B><br /></p>
+                <p><B>RNCP 31114</B> (NSF 326t), <B>Niveau 5 (bac+2)</B>. Formation intensive de 6 mois en présentiel,
+                  validée par un
+                  jury de professionnels sur présentation d'un projet pro (site web responsive, POO/MVC, PHP, JS,
+                  HTML/CSS, full vanilla, avec 2 CRUD, jugé sur le Front-End et le Back-End).<br /></p>
+
+                <a href="https://lamanu.fr/le-havre" target="_blank" title="Aller sur le site"><img
+                    src="../img/images/laManu.png" class="imgNavBar img-fluid float-right" alt="logo de La Manu"
+                    width="30%" height="30%" /></a>
+
+                <ul>
+                  <li>
+                    <p>Concernant la formation :<br />
+                      - <a href="../img/certif/AF_COMPERE_Paul.pdf" target="_blank">Attestation de suivi de
+                        Formation</a><br />
+                      - <a href="../img/book/Dossier_Pro_COMPERE_Paul.pdf" target="_blank">Dossier Professionnel</a></p>
+                  </li>
+                  <li>
+                    <p>Concernant le projet pro validant la formation :<br />
+                      - <a href="https://prezi.com/view/s50x4tHE1BnkQqGhpsnq/" target="_blank">Présentation sous
+                        Prezi</a><br />
+                      - <a href="../img/book/Dossier_Projet_Pro_COMPERE_Paul.pdf" target="_blank">Dossier du projet
+                        pro</a></p>
+                  </li>
+                </ul>
+
+
+                <p><B>LA MANU, L'École des métiers du Numérique, Campus du Havre</B><br /></p>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <p><B>Formateurs :</B>
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/anousone-mounivongs/" title="Voir le profil"
+                            target="_blank">Anousone Mounivongs</a></li>
+                        <li><a href="https://www.linkedin.com/in/nicolas-vallois-243906170/" title="Voir le profil"
+                            target="_blank">Nicolas Vallois</a></li>
+                      </ul>
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <p><B>Community Manager :</B>
+                      <ul>
+                        <li><a href="https://www.linkedin.com/in/aur%C3%A9lie-gaffet/" title="Voir le profil"
+                            target="_blank">Aurélie Gaffet</a></li>
+                      </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="F2">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF2"
+                  aria-expanded="false" aria-controls="collapseF2">
+                  Master 2 <a title="Langue, Idée, Société"><mark>LIS</mark></a>, mention Recherche, spécialité
+                  Philosophie
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF2" class="collapse" aria-labelledby="F2" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2016 - Septembre 2017</B><br /></p><a href="https://www.univ-rouen.fr/"
+                  title="Aller sur le site" target="_blank"><img src="../img/images/univRouen.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                    height="30%" /></a>
+                <ul>
+                  <li>
+                    <p>Mémoire de recherche : "<a href="../img/book/memoire.pdf" title="Cliquez pour voir"
+                        target="_blank">Philosophie du computationnel - Intelligence artificielle : l'IA forte est-elle
+                        réellement impossible ?
+                        Constats et arguments : pour un projet scientifique et philosophique.</a>"<br />
+                      => Dirigé par M. <a href="https://www.linkedin.com/in/franck-varenne-1864b91b/"
+                        title="Voir le profil" target="_blank">Franck Varenne</a>. Mention Assez Bien (13/20).</p>
+                  </li>
+                  <li>
+                    <p>Option suivie : Séminaire d'éthique appliquée, par Annie Hourcade et Jean-Pierre Cléro.<br />=><a
+                        href="../img/book/compte_rendu_ethique_animale.pdf" target="_blank"> Compte-rendu critique sur
+                        l'éthique animale (17/20)</a>.</p>
+                  </li>
+                </ul><a href="http://lsh.univ-rouen.fr/ufr-lettres-et-sciences-humaines-324546.kjsp"
+                  title="Aller sur le site" target="_blank"><img src="../img/images/ufrLettres.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo UFR LSH" width="20%"
+                    height="20%" /></a><br />
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines</B></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="F3">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF3"
+                  aria-expanded="false" aria-controls="collapseF3">
+                  Master 1 <a
+                    title="Métiers de l'Enseignement, de l'Education et de la Formation"><mark>MEEF</mark></a>, option
+                  histoire de l'art
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF3" class="collapse" aria-labelledby="F3" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2014 - Juin 2015</B><br /></p><img src="../img/images/univRouen.png"
+                  class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                  height="30%" />
+                <ul>
+                  <li>
+                    <p>Mémoire de recherche : "<a href="../img/book/memoire2.pdf" title="Cliquez pour voir un extrait"
+                        target="_blank">Les albums jeunesse de Loïc Clément : comment développer l'esprit critique des
+                        élèves de cycle 3 par le débat
+                        interprétatif.</a>"</p>
+                  </li>
+                  <li>
+                    <p>03/11/2014 - 14/11/2014 : Stage d'observation en école maternelle. Georges Brassens,
+                      Brionne.<br /> =><a href="../img/book/rapport_de_stage.pdf" target="_blank"> Rapport de stage.</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>02/02/2015 - 13/02/2015 : Stage de pratique en école élémentaire. Ernest Anquetil,
+                      Courbépine.<br /> =><a href="../img/book/rapport_de_stage2.pdf" target="_blank"> Rapport de
+                        stage.</a></p>
+                  </li><img src="../img/images/espe.png" class="imgNavBar img-fluid float-right rounded" alt="logo ESPE"
+                    width="20%" height="20%" />
+                  <li>
+                    <p>Juillet 2015 : Reçu au concours du <a
+                        title="Concours Régional des Professeurs des Ecoles"><mark>CRPE.</mark></a> Académie de Rouen.
+                    </p>
+                  </li>
+                </ul>
+                <p><B>Université de Rouen, ESPE antenne d'Evreux</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F4">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF4"
+                  aria-expanded="false" aria-controls="collapseF4">
+                  L1 <a
+                    title="Mathématiques, Informatique, Electronique, Electrotechnique, Automatique"><mark>MIEEA</mark></a>
+                  (auditeur libre)
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF4" class="collapse" aria-labelledby="F4" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2013 - Juin 2014</B><img src="../img/images/univRouen.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                    height="30%" /><br /></p>
+                <ul>
+                  <li>
+                    <p>Mars 2014 : Reçu au concours d'entrée de l'école <a href="https://www.isart.fr/"
+                        title="Aller sur le site" target="_blank">ISART DIGITAL</a> à Paris pour intégrer la formation
+                      GAME DESIGN en 1ère année au site de Montréal, Canada (désistement pour raisons financières).<img
+                        src="../img/images/ufrSciences.png" class="imgNavBar img-fluid float-right rounded"
+                        alt="logo UFR ST" width="20%" height="20%" /></p>
+                  </li>
+                </ul>
+                <p><B>Université de Rouen, UFR des Sciences et Techniques</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F5">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF5"
+                  aria-expanded="false" aria-controls="collapseF5">
+                  Colloques universitaires
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF5" class="collapse" aria-labelledby="F5" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>15/04/2013 - 19/04/2013</B><br /></p><img src="../img/images/univRouen.png"
+                  class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                  height="30%" />
+                <ul>
+                  <li>
+                    <p>Participation au colloque "<i>La nature : enjeux croisés autour de l'Antiquité, de l'empirisme et
+                        de la phénoménologie</i>", avec le département de philosophie de Rouen (présentation des travaux
+                      de recherches en tant que
+                      masterant).</p>
+                  </li>
+                </ul>
+                <p>=><a href="../img/book/compte_rendu_galatasaray.pdf" target="_blank"> Compte-rendu</a><a
+                    href="https://gsu.edu.tr/fr/" title="Aller sur le site" target="_blank"><img
+                      src="../img/images/galatasaray.png" class="imgNavBar img-fluid float-right rounded"
+                      alt="logo Galatasaray Universitesi" width="20%" height="20%" /></a></p>
+                <p><B>Université de Rouen et université publique franco-turque de Galatasaray, Istanbul</B></p>
+                <br /><br />
+                <p><B>21/03/2013 - 22/03/2013</B><br /></p>
+                <ul>
+                  <li>
+                    <p>Participation au colloque "<i>SURPRISE, à la croisée de la phénoménologie, de la psychiatrie et
+                        de la pragmatique</i>", en tant que discutant de la conférencière doctorante Virginie Palette,
+                      de l'université de Freiburg.</p>
+                  </li>
+                </ul>
+                <p>=> <a href="../img/book/compte_rendu_surprise.pdf" target="_blank">Compte-rendu de l'intervention</a>
+                </p><img src="../img/images/ufrLettres.png" class="imgNavBar img-fluid float-right rounded"
+                  alt="logo UFR LSH" width="20%" height="20%" />
+                <p>=> <a href="../img/book/dossier.pdf" target="_blank">Dossier dans le cadre du colloque</a> :
+                  l'empêchement des tendances et l'origine des modalisations de la certitude - analyse du paragraphe 21
+                  de Expérience et jugement de Husserl
+                  (18/20).
+                </p>
+
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F6">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF6"
+                  aria-expanded="false" aria-controls="collapseF6">
+                  Master 1 <a title="Langue, Idée, Société"><mark>LIS</mark></a>, mention Recherche, spécialité
+                  Philosophie
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF6" class="collapse" aria-labelledby="F6" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2012 - Juin 2013</B><br /></p><img src="../img/images/univRouen.png"
+                  class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                  height="30%" />
+                <ul>
+                  <li>Mémoire de recherche : "<a href="../img/book/memoire3.pdf" target="_blank">La pensée de la mort et
+                      son phénomène, dans les conditions de l'existence humaine, selon la perspective nihiliste -
+                      L'évolution du nihilisme dans la pensée
+                      allemande du 19ème siècle : du vouloir vivre de Schopenhauer à la volonté de puissance de
+                      Nietzsche</a>" (15/20).</li><br />
+                  <li>Option suivie : La métaphysique moderne et sa destruction, par Emmanuel Faye. <a
+                      href="../img/book/dissertation_arendt.pdf" target="_blank">Dossier</a> (16/20). </li><br /><img
+                    src="../img/images/ufrLettres.png" class="imgNavBar img-fluid float-right rounded"
+                    alt="logo UFR LSH" width="20%" height="20%" />
+                  <p>=> <a href="../img/diplome/m1_lis.pdf" target="_blank">Relevé de note</a></p>
+                </ul>
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F7">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF7"
+                  aria-expanded="false" aria-controls="collapseF7">
+                  Licence 3 de Philosophie, parcours général
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF7" class="collapse" aria-labelledby="F7" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2011 - Juin 2012</B><img src="../img/images/univRouen.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="60%"
+                    height="60%" /><br /></p>
+                <ul>
+                  <li><a href="../img/diplome/l3_philo.pdf" target="_blank">Relevé de note</a></li><br /><img
+                    src="../img/images/ufrLettres.png" class="imgNavBar img-fluid float-right rounded"
+                    alt="logo UFR LSH" width="40%" height="40%" />
+                </ul>
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F8">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF8"
+                  aria-expanded="false" aria-controls="collapseF8">
+                  Licence 2
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF8" class="collapse" aria-labelledby="F8" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2010 - Juin 2011</B><img src="../img/images/univRouen.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="35%"
+                    height="35%" /><br /></p>
+                <ul>
+                  <li>Licence 2 de Philosophie, parcours général.
+                    <a href="../img/diplome/l2_philo.pdf" target="_blank">Relevé de note</a><img
+                      src="../img/images/ufrLettres.png" class="imgNavBar img-fluid float-right rounded"
+                      alt="logo UFR LSH" width="25%" height="25%" />
+                  </li><br />
+                  <li>Licence 2 de Sociologie (auditeur libre)</li> <img src="../img/images/ufrSciences.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo UFR LSH" width="25%" height="25%" /><br />
+                  <li>Licence 1 de Biologie (auditeur libre)</li>
+                </ul>
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines et UFR des Sciences et Techniques</B>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F9">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF9"
+                  aria-expanded="false" aria-controls="collapseF9">
+                  Licence 1
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF9" class="collapse" aria-labelledby="F9" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Septembre 2009 - Juin 2010</B><img src="../img/images/univRouen.png"
+                    class="imgNavBar img-fluid float-right rounded" alt="logo université Rouen" width="30%"
+                    height="30%" /><br /></p>
+                <ul>
+                  <li>Licence 1 de Philosophie, parcours général.
+                    <a href="../img/diplome/l1_philo.pdf" target="_blank">Relevé de note</a><br />
+                    => <a href="../img/book/mini_memoire.pdf" target="_blank">Mini-mémoire</a> sur "La société contre
+                    l'Etat" de Pierre Clastres (16/20)
+                  </li><br />
+                  <li>Licence 1 de Sociologie, options "Contrôle social, déviance" et "Communication du vivant"
+                    (département de Biologie).<a href="../img/diplome/l1_socio.pdf" target="_blank"> Relevé de note</a>
+                  </li><br /><img src="../img/images/ufrLettres.png" class="imgNavBar img-fluid float-right rounded"
+                    alt="logo UFR LSH" width="20%" height="20%" />
+                  <li>Licence 1 de Lettres Modernes (auditeur libre)</li>
+                </ul>
+                <p><B>Université de Rouen, UFR des Lettres et Sciences Humaines</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F10">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF10"
+                  aria-expanded="false" aria-controls="collapseF10">
+                  Bac ES
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF10" class="collapse" aria-labelledby="F10" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Juin 2009</B><br /></p>
+                <ul>
+                  <li>Bac ES, spécialité Sciences Economiques et Sociales
+                    <img src="../img/images/lycee.png" class="imgNavBar img-fluid float-right rounded" alt="logo lycée"
+                      width="20%" height="20%" />
+                </ul>
+                <p><B>Lycée Jacques Prévert, Pont-Audemer</B></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="F11">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseF11"
+                  aria-expanded="false" aria-controls="collapseF11">
+                  Brevet
+                </button>
+              </h2>
+            </div>
+            <div id="collapseF11" class="collapse" aria-labelledby="F11" data-parent="#Formation">
+              <div class="card-body">
+                <p><B>Juin 2006</B><img src="../img/images/college.png" class="imgNavBar img-fluid float-right rounded"
+                    alt="logo collège" width="20%" height="20%" /><br /></p>
+                <ul>
+                  <li>Brevet des Collèges - 3ème générale, espagnol LV2
+                </ul>
+                <p><B>Collège Marcel Marceron, Montfort-sur-Risle</B></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- FOOTER START -->
+
+  <footer id="foot">
+    <div class="main-footer">
+
+      <!-- Footer links - Start -->
+      <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+
+          <!-- First column - Start -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="photo-responsive">
+              <a href="../img/images/moi.jpg" target="_blank"><img src="../img/images/moi_mini.jpg" id="image7"
+                  class="img-fluid" alt="photo de profil" width="100%" height="100%"
+                  title="Cliquez pour voir l'image en taille réelle" /></a>
+            </div>
+          </div>
+          <!-- First column - End -->
+
+          <!-- Second column - Start -->
+          <div id="contact" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+            <h6 class="footer-title">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+            <p>
+              <i class="fas fa-home  mr-3"></i> France ❤️
+            </p>
+            <p id="contact">
+              <i class="fas fa-envelope mr-3"></i> <a href="mailto:northern.skies.programming@outlook.fr"
+                title="Cliquez pour envoyer un email">Cassie.Hamingja@outlook.fr</a>
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i> 06. 75. 87. 94. 32
+            </p>
+          </div>
+          <!-- Second column - End -->
+
+          <!-- Third column - Start -->
+          <div class="col-md-3 offset-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="footer-title">Autres informations</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+            <p class="footer-legis">
+              • Born in the 90' in Normandy
+            </p>
+            <p class="footer-legis">
+              • Permis A et B
+            </p>
+            <p class="footer-legis">
+              • Véhicules personnels
+            </p>
+            <!-- <p class="footer-legis">
+              • <a href="img/CV_HAMINGJA_Cassie.pdf" target="_blank" title="Cliquez pour ouvrir">CV papier</a>
+            </p> -->
+            <!-- <p class="footer-legis">
+              • <a href="img/English-CV_HAMINGJA_Cassie.pdf" target="_blank" title="Click to open">International CV</a>
+            </p> -->
+          </div>
+          <!-- Third column - End -->
+
+          <div class="col-md-2 col-lg-1 col-xl-1 mx-auto mb-4">
+          </div>
+
+          <!-- Fourth column - Start -->
+          <div class="col-md-4 offset-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+            <h6 class="footer-title">Site réalisé avec : </h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+            <p>
+              <i class="fab fa-html5 fa-5x img-fluid" alt="logo HTML5" title="HTML5"></i>
+              <i class="fab fa-css3-alt fa-5x img-fluid" alt="logo CSS3" title="CSS3"></i>
+            </p>
+            <p>
+              <i class="fab fa-js fa-4x img-fluid" alt="logo JavaScript" title="JavaScript"></i>
+              <i class="fab fa-bootstrap fa-4x img-fluid" alt="logo Bootstrap" title="Bootstrap"></i>
+            </p>
+          </div>
+          <!-- Fourth column - End -->
+
+        </div>
+        <p id="socialNetwork" class="center col-md-4 offset-md-4 col-lg-3 col-xl-3 mx-auto">
+          <a href="https://www.linkedin.com/in/cassie-hamingja/" target="_blank" title="Mon Linkedin"><i
+              class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/ShaolinSpirit76" target="_blank"><img
+              src="../img/images/iconfinder_github_394189.png" class="img-fluid" alt="Chat-poulpe" width="30%" height="30%"
+              title="Mon Github perso" /></a>
+              <a href="https://github.com/Hamingja-NSP" target="_blank"><img
+                src="../img/images/iconfinder_github_394189.png" class="img-fluid" alt="Chat-poulpe" width="30%" height="30%"
+                title="Mon Github pro" /></a>
+          <i class="fab fa-discord fa-lg mr-2 fa-2x" title="ShaolinSpirit76#4052"></i>
+        </p>
+      </div>
+      <!-- Footer links - End -->
+
+
+      <!-- Copyright - Start -->
+      <div class="footer-copyright text-center py-3 text-white">Copyright © 2019 - 2023 | Cassie Hamingja 🌸
+      </div>
+      <!-- Copyright - End -->
+
+    </div>
+  </footer>
+
+  <!-- FOOTER END -->
+
+
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|             SCRIPTS                |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
+
+  <!-- JavaScript CDN always at the end of the body to avoid bugs -->
+    <!-- First : JQuery CDN -->
+    <script
+			  src="https://code.jquery.com/jquery-3.6.4.min.js"
+			  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+			  crossorigin="anonymous"></script>
+    <script src="../assets/CDN/jquery.min.js"></script>
+    <!-- Then : Popper.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="../assets/CDN/popper.min.js"></script>
+    <!-- Finally : Bootstrap.js CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="../assets/CDN/bootstrap.min.js"></script>
+  <!-- Sweet alert 2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../assets/CDN/sweetalert2@11.js"></script>
+  <!-- Font Awesome CDN for using fa-fa and icons -->
+  <script src="https://kit.fontawesome.com/eaadffbb2b.js"></script>
+  <script src="../assets/CDN/eaadffbb2b.js"></script>
+  <!-- Script for animation -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="../assets/CDN/aos.js"></script>
+  <!-- Link with JS sheet (always after JQuery CDN) -->
+  <script src="../assets/scripts/script.js"></script>
+</body>
+
+</html>
