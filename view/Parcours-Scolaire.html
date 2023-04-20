@@ -1,87 +1,109 @@
 <!DOCTYPE html>
 <!-- Specification of the page language and reading direction. Here : french, left to right. -->
-<html lang="fr" dir="ltr">
+<html lang="fr-FR" dir="ltr">
 
 <head>
 
-  <!-- BASIC META - MINIMAL CONFIGURATION -->
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--| BASIC META - MINIMAL CONFIGURATION |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
   <!-- Support for accents and other special characters -->
   <meta charset="utf-8" />
   <!-- For responsive design -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Internet Explorer Compatibility -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" 
+  content="IE=edge">
   <!-- The description that the browser should display in its results -->
-  <meta name="description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
+  <meta name="description" 
+  content="Cassie Hamingja - Développement Web Full-Stack - entreprise Northern Skies Programming, WordPress sur-mesure, PHP, HMTL/CSS & JS, E-commerce">
+
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|      CDN - PROPER CONFIGURATION    |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/CDN/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/CDN/bootstrap.min.css">
   <!-- CSS link for animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="../assets/CDN/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/CDN/aos.css">
   <!-- CSS link for the scroll to top -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/CDN/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-  <link href="../assets/CDN/merriweather.css" rel="stylesheet">
+  <link href="../assets/CDN/merriweather/merriweather.css" rel="stylesheet">
   <!-- Link to CSS page -->
   <link rel="stylesheet" href="../assets/CSS/style.css">
   <!-- Link to CSS specific to this page -->
   <link rel="stylesheet" href="../assets/CSS/Parcours-Scolaire.css">
   <!-- Link for the font -->
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
-  <link href="../assets/CDN/merienda.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="../assets/CDN/roboto.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Merienda -->
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="../assets/CDN/Merienda/merienda.css" rel="stylesheet">
+    <!-- Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="../assets/CDN/roboto.css" rel="stylesheet">
   <!-- thumbnail icon -->
-  <link rel="icon" href="../img/images/dragon-face_1f432.png">
-
+  <link rel="icon" href="../img/images/dragon-face_1f432.png" 
+  alt="Tête de dragon chinois, vert et jaune.">
   <!-- thumbnail title -->
-  <title>Paul Compère - Développeur</title>
+  <title>Cassie Hamingja - Développement Web</title>
 
+<!--|____________________________________|-->
+<!--|----------------------------------- |-->
+<!--|  SEO OPTIMIZATION - SOCIAL MEDIA   |-->
+<!--|----------------------------------- |-->
+<!--|____________________________________|-->
 
-  <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK -->
+  <!-- OPEN GRAPH DATA - OPTIMIZED FOR FACEBOOK & lINKEDIN -->
 
-  <meta property="og:title" content="Paul Compère - Développeur" />
+  <meta property="og:title" content="Cassie Hamingja - Développement Web" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://paul-compere.github.io/developpeur.web/" />
-  <meta property="og:image" content="http://paul-compere.github.io/../img/images/doomsday.svg" />
-  <meta property="og:description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI" />
+  <meta property="og:url" content="https://hamingja-nsp.github.io/Cassie.developpeuse/" />
+  <meta property="og:image" content="https://hamingja-nsp.github.io/Cassie.developpeuse/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
+  <meta property="og:description" content="Cassie Hamingja - Développement Web Full-Stack - entreprise Northern Skies Programming, WordPress sur-mesure, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta property="og:site_name" content="hamingja-nsp.github.io/Cassie.developpeuse" />
+  <meta property="og:locale" content="fr_FR" />
 
 
   <!-- TWITTER CARD DATA -->
 
-  <meta name="twitter:card" content="icon">
-  <meta name="twitter:site" content="@Paul Compère - Développeur">
-  <meta name="twitter:title" content="Paul Compère - Développeur">
-  <meta name="twitter:description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
-  <meta name="twitter:creator" content="@ShaolinSpirit76">
+  <meta name="twitter:title" content="Cassie Hamingja - Développement Web" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@Hamingja-NSP" />
+  <meta name="twitter:url" content="https://hamingja-nsp.github.io/Cassie.developpeuse/" />
+  <meta name="twitter:description" content="Cassie Hamingja - Développement Web Full-Stack - entreprise Northern Skies Programming, WordPress sur-mesure, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta name="twitter:creator" content="@Hamingja-NSP" />
   <!-- Twitter Summary card images must be at least 200x200px -->
-  <meta name="twitter:image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+  <meta name="twitter:image" content="https://hamingja-nsp.github.io/Cassie.developpeuse/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
 
 
   <!-- SCHEMA.ORG MARKUP FOR GOOGLE+ -->
 
-  <meta itemprop="name" content="Paul Compère - Développeur">
-  <meta itemprop="description"
-    content="Full-Stack Developer, Python, JS, PHP, HMTL/CSS & WordPress, human relationship (#easierLife, #healthierLife), Green code (#ecology), Applications - UX design - E-commerce - Machine Learning - AI">
-  <meta itemprop="image" content="http://paul-compere.github.io/../img/images/doomsday.svg">
+  <meta itemprop="name" content="Cassie Hamingja - Développement Web" />
+  <meta itemprop="description" content="Cassie Hamingja - Développement Web Full-Stack - entreprise Northern Skies Programming, WordPress sur-mesure, PHP, HMTL/CSS & JS, E-commerce" />
+  <meta itemprop="image" content="https://hamingja-nsp.github.io/Cassie.developpeuse/img/images/doomsday.svg" alt="androïde en méditation en position du lotus tel un moine bouddhiste" />
 
 
   <!-- GOOGLE AUTHORSHIP AND PUBLISHER MARKUP -->
 
-  <link rel="author" href="https://github.com/ShaolinSpirit76" />
-  <link rel="publisher" href="https://paul-compere.github.io/developpeur.web/" />
+  <link rel="author" href="https://github.com/Hamingja-NSP" />
+  <link rel="publisher" href="https://hamingja-nsp.github.io/Cassie.developpeuse/" />
 </head>
 
 <body>
+
+  <!-- Parcours-Scolaire -->
 
   <nav id="menu1" class="navbar navbar-expand-lg sticky-top">
     <a class="navbar-brand" href="#"></a>
